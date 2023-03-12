@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&display=swap');
+
+
+body {
+  background-color: #81b29a;
+  padding: 40px;
+  color: white;
+  font-family: 'Inter', sans-seriff;
+}
+
+#container {
+  margin: 0 auto;
+  text-align: center;
+  width: 550px;
+  height: 729px;
+  border-radius: 10px;
+  background-color: #1F2937;
+}
+
+.header {
+  background-color: #15616d;
+  display: grid;
+  width: 550px;
+  height: 285px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.userinput {
+  background: none;
+  border: 2px solid #a8dadc;
+  border-radius: 5px;
+  margin-left: 210px;
+  height: 83px;
+  width: 117px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38PX;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.userinput:focus{
+  outline-color: #a8dadc;
+}
+
+::placeholder {
+  color: white;
+  opacity: 25%;
+}
+
+.btn {
+  position: relative;
+  width: 117px;
+  height: 42px;
+  margin: auto;
+  margin-top: 3px;
+  border-radius: 5px;
+  border: solid white;
+
+}
+/* I like the button that way */
+.btn:hover {
+ cursor: pointer;
+  background-color: #b2f7ef;
+  border-color: #a8dadc;
+}
+
+.results {
+  margin-top: 35px;
+}
+
+.conversion {
+  background-color: #273549;
+  margin: 23px 25px;
+  padding: 3px;
+}
+
+h2 {
+  color: #b2f7ef;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
